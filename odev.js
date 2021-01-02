@@ -40,7 +40,8 @@ document.querySelector("#populationBigger").addEventListener("click", () => {
 });
 
 //land area - less than 1000 => #landAreaLess
-document.querySelector("#landAreaLess").addEventListener("click", () => {  //filter kullanarak city arrayi içerisinde bulunan landArea 100K dan küçük olan değerleri bulup lessThanThousand arrayine atadık.
+document.querySelector("#landAreaLess").addEventListener("click", () => { 
+   //filter kullanarak city arrayi içerisinde bulunan landArea 100K dan küçük olan değerleri bulup lessThanThousand arrayine atadık.
   const lessThanThousand = data.filter(city => city.landArea < 1000);      //filter:verilen dizi içerisindeki elemaların şartı true dönen değerleri yeni dizi oluşturarak geri döndürür. 
   createTableElements(lessThanThousand, "allcities");
 
