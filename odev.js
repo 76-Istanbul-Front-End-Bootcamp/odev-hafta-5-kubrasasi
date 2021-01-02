@@ -5,7 +5,7 @@ import {createTableElements} from "./main.js";
   ALWAYS USE IMPORTED data ARRAY TO MAKE MANIPULATIONS
 
   ID for allcities table is #allcities
-  ID for singlecity table is #singlecity
+  ID for singlecity table is #singlecit
 /*
 
 /*
